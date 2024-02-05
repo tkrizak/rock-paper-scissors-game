@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.rock-paper-scissors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button,
+.yes-button,
+.no-button {
+  background-color: white;
+  border: 0;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.yes-button,
+.no-button {
+  margin: 0.5rem;
+}
+
+.bottom-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.reset-message {
+  display: inline;
+}
+
+.controls {
+  margin-left: 3rem;
+}
+
+.keys {
+  color: hsl(43, 90%, 59%);
+}
